@@ -400,8 +400,22 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
                                   <Component id="jButton2" alignment="0" min="-2" pref="166" max="-2" attributes="0"/>
                                   <Component id="jButton5" alignment="0" min="-2" pref="195" max="-2" attributes="0"/>
+=======
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="125" max="-2" attributes="0"/>
+                                      <Component id="jButton5" min="-2" pref="195" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="166" max="-2" attributes="0"/>
+                                      <Component id="jButton6" min="-2" pref="180" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jButton8" min="-2" pref="376" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                                      <Component id="jButton9" min="-2" pref="180" max="-2" attributes="0"/>
+                                  </Group>
+>>>>>>> 3f7e1c5e9384d0dcc026ee817d1b9681d8060e34
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">

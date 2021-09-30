@@ -26,7 +26,7 @@ public class alltab extends javax.swing.JFrame {
  void addUser(String fullName,String username, String email,String mobileNo,String passwrd){
          try{
             Class.forName("java.sql.Driver");
-             try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","122369"); Statement stmt = conn.createStatement()) {
+             try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","tahmid@99"); Statement stmt = conn.createStatement()) {
                  String qrry = "Insert into teacher values("
                          +"'" + fullName + "',"
                          +"'" + username + "',"
@@ -50,7 +50,7 @@ public class alltab extends javax.swing.JFrame {
  void addTeacher(String name,String age, String mobile,String gender,String qualification, String subject,String tin){
          try{
             Class.forName("java.sql.Driver");
-             try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","122369"); Statement stmt = conn.createStatement()) {
+             try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","tahmid@99"); Statement stmt = conn.createStatement()) {
                  String qrry = "Insert into addteacher values("
                          +"'" + name + "',"
                          +"'" + age + "',"
@@ -71,7 +71,7 @@ public class alltab extends javax.swing.JFrame {
  void addStudent(String name,String fathername, String mothername,String age,String  classes, String address,String sid){
          try{
             Class.forName("java.sql.Driver");
-             try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","122369"); Statement stmt = conn.createStatement()) {
+             try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","tahmid@99"); Statement stmt = conn.createStatement()) {
                  String qrry = "Insert into addstudent values("
                          +"'" + name + "',"
                          +"'" + fathername + "',"
@@ -93,7 +93,7 @@ public class alltab extends javax.swing.JFrame {
         boolean flag = false;
         try{
             Class.forName("java.sql.Driver");
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","122369");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","tahmid@99");
             Statement stmt = conn.createStatement();
             String qrry = "select * from teacher where username=\"" + usr +"\" and password=\"" + pswd + "\";";
             ResultSet rs = stmt.executeQuery(qrry);
@@ -141,7 +141,7 @@ public class alltab extends javax.swing.JFrame {
  void addstuff(String name,String mobile, String age,String qualification,String gender){
          try{
             Class.forName("java.sql.Driver");
-             try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","122369"); Statement stmt = conn.createStatement()) {
+             try (Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","tahmid@99"); Statement stmt = conn.createStatement()) {
                  String qrry = "Insert into addstaff values("
                          +"'" + name + "',"
                          +"'" + mobile + "',"
