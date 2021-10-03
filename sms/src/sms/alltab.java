@@ -186,6 +186,270 @@ public class alltab extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(rootPane,"Error in Fetching Data ");
         }
  }
+ void show1Student(){
+        DefaultTableModel model =(DefaultTableModel)svnstable.getModel();
+        model.setRowCount(0);
+        try{
+            Class.forName("java.sql.Driver");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","122369");
+            Statement stmt = conn.createStatement();
+            String qrry = "select * from addstudent where class like '1'";
+            ResultSet rs = stmt.executeQuery(qrry);
+            while(rs.next()){
+               String name = rs.getString("name");
+               String fname = rs.getString("fathername");
+		String mname = rs.getString("mothername");
+               String age = rs.getString("age");
+		String classes = rs.getString("class");
+               String address = rs.getString("address");
+		String Sid = rs.getString("studentid");		
+               
+               model.addRow(new Object[]{name,fname,mname,age,classes,address,Sid});
+            }
+        }catch(ClassNotFoundException | SQLException ex){
+            JOptionPane.showMessageDialog(rootPane,"Error in Fetching Data ");
+        }
+ }
+ void show2Student(){
+        DefaultTableModel model =(DefaultTableModel)svnstable.getModel();
+        model.setRowCount(0);
+        try{
+            Class.forName("java.sql.Driver");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","122369");
+            Statement stmt = conn.createStatement();
+            String qrry = "select * from addstudent where class like '2'";
+            ResultSet rs = stmt.executeQuery(qrry);
+            while(rs.next()){
+               String name = rs.getString("name");
+               String fname = rs.getString("fathername");
+		String mname = rs.getString("mothername");
+               String age = rs.getString("age");
+		String classes = rs.getString("class");
+               String address = rs.getString("address");
+		String Sid = rs.getString("studentid");		
+               
+               model.addRow(new Object[]{name,fname,mname,age,classes,address,Sid});
+            }
+        }catch(ClassNotFoundException | SQLException ex){
+            JOptionPane.showMessageDialog(rootPane,"Error in Fetching Data ");
+        }
+ }
+ void show3Student(){
+        DefaultTableModel model =(DefaultTableModel)svnstable.getModel();
+        model.setRowCount(0);
+        try{
+            Class.forName("java.sql.Driver");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","122369");
+            Statement stmt = conn.createStatement();
+            String qrry = "select * from addstudent where class like '3'";
+            ResultSet rs = stmt.executeQuery(qrry);
+            while(rs.next()){
+               String name = rs.getString("name");
+               String fname = rs.getString("fathername");
+		String mname = rs.getString("mothername");
+               String age = rs.getString("age");
+		String classes = rs.getString("class");
+               String address = rs.getString("address");
+		String Sid = rs.getString("studentid");		
+               
+               model.addRow(new Object[]{name,fname,mname,age,classes,address,Sid});
+            }
+        }catch(ClassNotFoundException | SQLException ex){
+            JOptionPane.showMessageDialog(rootPane,"Error in Fetching Data ");
+        }
+ }
+  void show4Student(){
+        DefaultTableModel model =(DefaultTableModel)svnstable.getModel();
+        model.setRowCount(0);
+        try{
+            Class.forName("java.sql.Driver");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","122369");
+            Statement stmt = conn.createStatement();
+            String qrry = "select * from addstudent where class like '4'";
+            ResultSet rs = stmt.executeQuery(qrry);
+            while(rs.next()){
+               String name = rs.getString("name");
+               String fname = rs.getString("fathername");
+		String mname = rs.getString("mothername");
+               String age = rs.getString("age");
+		String classes = rs.getString("class");
+               String address = rs.getString("address");
+		String Sid = rs.getString("studentid");		
+               
+               model.addRow(new Object[]{name,fname,mname,age,classes,address,Sid});
+            }
+        }catch(ClassNotFoundException | SQLException ex){
+            JOptionPane.showMessageDialog(rootPane,"Error in Fetching Data ");
+        }
+ }
+   void show6Student(){
+        DefaultTableModel model =(DefaultTableModel)svnstable.getModel();
+        model.setRowCount(0);
+        try{
+            Class.forName("java.sql.Driver");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","122369");
+            Statement stmt = conn.createStatement();
+            String qrry = "select * from addstudent where class like '6'";
+            ResultSet rs = stmt.executeQuery(qrry);
+            while(rs.next()){
+               String name = rs.getString("name");
+               String fname = rs.getString("fathername");
+		String mname = rs.getString("mothername");
+               String age = rs.getString("age");
+		String classes = rs.getString("class");
+               String address = rs.getString("address");
+		String Sid = rs.getString("studentid");		
+               
+               model.addRow(new Object[]{name,fname,mname,age,classes,address,Sid});
+            }
+        }catch(ClassNotFoundException | SQLException ex){
+            JOptionPane.showMessageDialog(rootPane,"Error in Fetching Data ");
+        }
+ }
+     void show7Student(){
+        DefaultTableModel model =(DefaultTableModel)svnstable.getModel();
+        model.setRowCount(0);
+        try{
+            Class.forName("java.sql.Driver");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","122369");
+            Statement stmt = conn.createStatement();
+            String qrry = "select * from addstudent where class like '7'";
+            ResultSet rs = stmt.executeQuery(qrry);
+            while(rs.next()){
+               String name = rs.getString("name");
+               String fname = rs.getString("fathername");
+		String mname = rs.getString("mothername");
+               String age = rs.getString("age");
+		String classes = rs.getString("class");
+               String address = rs.getString("address");
+		String Sid = rs.getString("studentid");		
+               
+               model.addRow(new Object[]{name,fname,mname,age,classes,address,Sid});
+            }
+        }catch(ClassNotFoundException | SQLException ex){
+            JOptionPane.showMessageDialog(rootPane,"Error in Fetching Data ");
+        }
+ }
+      void show8Student(){
+        DefaultTableModel model =(DefaultTableModel)svnstable.getModel();
+        model.setRowCount(0);
+        try{
+            Class.forName("java.sql.Driver");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","122369");
+            Statement stmt = conn.createStatement();
+            String qrry = "select * from addstudent where class like '8'";
+            ResultSet rs = stmt.executeQuery(qrry);
+            while(rs.next()){
+               String name = rs.getString("name");
+               String fname = rs.getString("fathername");
+		String mname = rs.getString("mothername");
+               String age = rs.getString("age");
+		String classes = rs.getString("class");
+               String address = rs.getString("address");
+		String Sid = rs.getString("studentid");		
+               
+               model.addRow(new Object[]{name,fname,mname,age,classes,address,Sid});
+            }
+        }catch(ClassNotFoundException | SQLException ex){
+            JOptionPane.showMessageDialog(rootPane,"Error in Fetching Data ");
+        }
+ }
+       void show9Student(){
+        DefaultTableModel model =(DefaultTableModel)svnstable.getModel();
+        model.setRowCount(0);
+        try{
+            Class.forName("java.sql.Driver");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","122369");
+            Statement stmt = conn.createStatement();
+            String qrry = "select * from addstudent where class like '9'";
+            ResultSet rs = stmt.executeQuery(qrry);
+            while(rs.next()){
+               String name = rs.getString("name");
+               String fname = rs.getString("fathername");
+		String mname = rs.getString("mothername");
+               String age = rs.getString("age");
+		String classes = rs.getString("class");
+               String address = rs.getString("address");
+		String Sid = rs.getString("studentid");		
+               
+               model.addRow(new Object[]{name,fname,mname,age,classes,address,Sid});
+            }
+        }catch(ClassNotFoundException | SQLException ex){
+            JOptionPane.showMessageDialog(rootPane,"Error in Fetching Data ");
+        }
+ }
+         void show10Student(){
+        DefaultTableModel model =(DefaultTableModel)svnstable.getModel();
+        model.setRowCount(0);
+        try{
+            Class.forName("java.sql.Driver");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","122369");
+            Statement stmt = conn.createStatement();
+            String qrry = "select * from addstudent where class like '10'";
+            ResultSet rs = stmt.executeQuery(qrry);
+            while(rs.next()){
+               String name = rs.getString("name");
+               String fname = rs.getString("fathername");
+		String mname = rs.getString("mothername");
+               String age = rs.getString("age");
+		String classes = rs.getString("class");
+               String address = rs.getString("address");
+		String Sid = rs.getString("studentid");		
+               
+               model.addRow(new Object[]{name,fname,mname,age,classes,address,Sid});
+            }
+        }catch(ClassNotFoundException | SQLException ex){
+            JOptionPane.showMessageDialog(rootPane,"Error in Fetching Data ");
+        }
+ }
+          void showUpperNurseryStudent(){
+        DefaultTableModel model =(DefaultTableModel)svnstable.getModel();
+        model.setRowCount(0);
+        try{
+            Class.forName("java.sql.Driver");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","122369");
+            Statement stmt = conn.createStatement();
+            String qrry = "select * from addstudent where class like 'Upper Nursery'";
+            ResultSet rs = stmt.executeQuery(qrry);
+            while(rs.next()){
+               String name = rs.getString("name");
+               String fname = rs.getString("fathername");
+		String mname = rs.getString("mothername");
+               String age = rs.getString("age");
+		String classes = rs.getString("class");
+               String address = rs.getString("address");
+		String Sid = rs.getString("studentid");		
+               
+               model.addRow(new Object[]{name,fname,mname,age,classes,address,Sid});
+            }
+        }catch(ClassNotFoundException | SQLException ex){
+            JOptionPane.showMessageDialog(rootPane,"Error in Fetching Data ");
+        }
+ }
+             void showNurseryStudent(){
+        DefaultTableModel model =(DefaultTableModel)svnstable.getModel();
+        model.setRowCount(0);
+        try{
+            Class.forName("java.sql.Driver");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/signup","root","122369");
+            Statement stmt = conn.createStatement();
+            String qrry = "select * from addstudent where class like 'Nursery'";
+            ResultSet rs = stmt.executeQuery(qrry);
+            while(rs.next()){
+               String name = rs.getString("name");
+               String fname = rs.getString("fathername");
+		String mname = rs.getString("mothername");
+               String age = rs.getString("age");
+		String classes = rs.getString("class");
+               String address = rs.getString("address");
+		String Sid = rs.getString("studentid");		
+               
+               model.addRow(new Object[]{name,fname,mname,age,classes,address,Sid});
+            }
+        }catch(ClassNotFoundException | SQLException ex){
+            JOptionPane.showMessageDialog(rootPane,"Error in Fetching Data ");
+        }
+ }
  
  void addstuff(String name,String mobile, String age,String qualification,String gender){
          try{
@@ -1139,8 +1403,18 @@ public class alltab extends javax.swing.JFrame {
         });
 
         jButton31.setText("Class 2");
+        jButton31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton31ActionPerformed(evt);
+            }
+        });
 
         jButton32.setText("Class 1");
+        jButton32.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton32ActionPerformed(evt);
+            }
+        });
 
         jButton33.setText("Class 5");
         jButton33.addActionListener(new java.awt.event.ActionListener() {
@@ -1150,18 +1424,53 @@ public class alltab extends javax.swing.JFrame {
         });
 
         jButton34.setText("Class 6");
+        jButton34.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton34ActionPerformed(evt);
+            }
+        });
 
         jButton35.setText("Class 4");
+        jButton35.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton35ActionPerformed(evt);
+            }
+        });
 
         jButton36.setText("Class 3");
+        jButton36.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton36ActionPerformed(evt);
+            }
+        });
 
         jButton37.setText("Class 7");
+        jButton37.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton37ActionPerformed(evt);
+            }
+        });
 
         jButton38.setText("Class 9");
+        jButton38.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton38ActionPerformed(evt);
+            }
+        });
 
         jButton39.setText("Class 10");
+        jButton39.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton39ActionPerformed(evt);
+            }
+        });
 
         jButton40.setText("Class 8");
+        jButton40.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton40ActionPerformed(evt);
+            }
+        });
 
         jButton51.setText("Main Menu");
         jButton51.addActionListener(new java.awt.event.ActionListener() {
@@ -1595,11 +1904,13 @@ public class alltab extends javax.swing.JFrame {
 
     private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
         // TODO add your handling code here:
+        showNurseryStudent();
         jTabbedPane1.setSelectedIndex(12);
     }//GEN-LAST:event_jButton30ActionPerformed
 
     private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
-        // TODO add your handling code here:
+         showUpperNurseryStudent();
+        jTabbedPane1.setSelectedIndex(12);
     }//GEN-LAST:event_jButton29ActionPerformed
 
     private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
@@ -1607,6 +1918,63 @@ public class alltab extends javax.swing.JFrame {
         show5Student();
         jTabbedPane1.setSelectedIndex(12);
     }//GEN-LAST:event_jButton33ActionPerformed
+
+    private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
+        // TODO add your handling code here:
+        show1Student();
+         jTabbedPane1.setSelectedIndex(12);
+        
+    }//GEN-LAST:event_jButton32ActionPerformed
+
+    private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
+        // TODO add your handling code here:
+        show2Student();
+         jTabbedPane1.setSelectedIndex(12);
+        
+    }//GEN-LAST:event_jButton31ActionPerformed
+
+    private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
+        // TODO add your handling code here:
+        show3Student();
+         jTabbedPane1.setSelectedIndex(12);
+    }//GEN-LAST:event_jButton36ActionPerformed
+
+    private void jButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton35ActionPerformed
+        // TODO add your handling code here:
+        show4Student();
+         jTabbedPane1.setSelectedIndex(12);
+        
+    }//GEN-LAST:event_jButton35ActionPerformed
+
+    private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
+        // TODO add your handling code here:
+          show6Student();
+         jTabbedPane1.setSelectedIndex(12);
+    }//GEN-LAST:event_jButton34ActionPerformed
+
+    private void jButton37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton37ActionPerformed
+        // TODO add your handling code here:
+         show7Student();
+         jTabbedPane1.setSelectedIndex(12);
+    }//GEN-LAST:event_jButton37ActionPerformed
+
+    private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
+        // TODO add your handling code here:
+        show8Student();
+         jTabbedPane1.setSelectedIndex(12);
+    }//GEN-LAST:event_jButton40ActionPerformed
+
+    private void jButton38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton38ActionPerformed
+        // TODO add your handling code here:
+        show9Student();
+         jTabbedPane1.setSelectedIndex(12);
+    }//GEN-LAST:event_jButton38ActionPerformed
+
+    private void jButton39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton39ActionPerformed
+        // TODO add your handling code here:
+        show10Student();
+         jTabbedPane1.setSelectedIndex(12);
+    }//GEN-LAST:event_jButton39ActionPerformed
 
     /**
      * @param args the command line arguments
