@@ -1145,7 +1145,7 @@
             <Component class="javax.swing.JLabel" name="jLabel7">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Asus\Downloads\infra6.jpeg"/>
+                  <Image iconType="3" name="/sms/infra6.jpeg"/>
                 </Property>
               </Properties>
             </Component>
@@ -1222,7 +1222,7 @@
             <Component class="javax.swing.JLabel" name="jLabel8">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Asus\Downloads\map11.jpeg"/>
+                  <Image iconType="3" name="/sms/map11.jpeg"/>
                 </Property>
               </Properties>
             </Component>
@@ -1299,7 +1299,7 @@
             <Component class="javax.swing.JLabel" name="jLabel9">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Asus\Downloads\photocam3.jpeg"/>
+                  <Image iconType="3" name="/sms/photocam3.jpeg"/>
                 </Property>
               </Properties>
             </Component>
@@ -1379,7 +1379,7 @@
             <Component class="javax.swing.JLabel" name="jLabel10">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Asus\Downloads\photocam4.jpeg"/>
+                  <Image iconType="3" name="/sms/photocam4.jpeg"/>
                 </Property>
               </Properties>
             </Component>
@@ -1447,7 +1447,7 @@
             <Component class="javax.swing.JLabel" name="jLabel11">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Asus\Downloads\photocam5.jpeg"/>
+                  <Image iconType="3" name="/sms/photocam5.jpeg"/>
                 </Property>
               </Properties>
             </Component>
@@ -1510,7 +1510,7 @@
             <Component class="javax.swing.JLabel" name="jLabel12">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Asus\Downloads\photocam6.jpeg"/>
+                  <Image iconType="3" name="/sms/photocam6.jpeg"/>
                 </Property>
               </Properties>
             </Component>

@@ -828,7 +828,7 @@ void showspecresult(String stuid){
 
         jTabbedPane1.addTab("tab5", jPanel5);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\Asus\\Downloads\\infra6.jpeg")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sms/infra6.jpeg"))); // NOI18N
 
         jButton16.setFont(new java.awt.Font("Microsoft Tai Le", 1, 24)); // NOI18N
         jButton16.setText("Main Menu");
@@ -877,7 +877,7 @@ void showspecresult(String stuid){
 
         jTabbedPane1.addTab("tab6", jPanel6);
 
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\Asus\\Downloads\\map11.jpeg")); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sms/map11.jpeg"))); // NOI18N
 
         jButton17.setFont(new java.awt.Font("Microsoft Tai Le", 1, 24)); // NOI18N
         jButton17.setText("Back");
@@ -926,7 +926,7 @@ void showspecresult(String stuid){
 
         jTabbedPane1.addTab("tab7", jPanel7);
 
-        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Users\\Asus\\Downloads\\photocam3.jpeg")); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sms/photocam3.jpeg"))); // NOI18N
 
         jButton19.setFont(new java.awt.Font("Microsoft Tai Le", 1, 24)); // NOI18N
         jButton19.setText("Back");
@@ -975,7 +975,7 @@ void showspecresult(String stuid){
 
         jTabbedPane1.addTab("tab8", jPanel8);
 
-        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Users\\Asus\\Downloads\\photocam4.jpeg")); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sms/photocam4.jpeg"))); // NOI18N
 
         jButton21.setFont(new java.awt.Font("Microsoft Tai Le", 1, 24)); // NOI18N
         jButton21.setText("Back");
@@ -1026,7 +1026,7 @@ void showspecresult(String stuid){
 
         jTabbedPane1.addTab("tab9", jPanel9);
 
-        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\Asus\\Downloads\\photocam5.jpeg")); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sms/photocam5.jpeg"))); // NOI18N
 
         jButton23.setFont(new java.awt.Font("Microsoft Tai Le", 1, 24)); // NOI18N
         jButton23.setText("Next");
@@ -1069,7 +1069,7 @@ void showspecresult(String stuid){
 
         jTabbedPane1.addTab("tab10", jPanel10);
 
-        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Users\\Asus\\Downloads\\photocam6.jpeg")); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sms/photocam6.jpeg"))); // NOI18N
 
         jButton25.setFont(new java.awt.Font("Microsoft Tai Le", 1, 24)); // NOI18N
         jButton25.setText("Back");
